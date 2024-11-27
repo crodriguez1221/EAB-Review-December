@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container mt-4">
+    <h1 class="text-center">Welcome to Washington Vets 2 Tech</h1>
+    <p class="lead text-center">
+        Your gateway to a future in technology. We offer tailored programs for veterans transitioning to tech careers.
+    </p>
+
+    <div class="row mt-5">
+        <!-- Section for Login and Register -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Join Us</h5>
+                    <p class="card-text">Already have an account? Login to access your personalized dashboard and study materials.</p>
+                    <a href="@Url.Action("Login", "Account")" class="btn btn-primary">Login</a>
+                    <!--<a href="/Account/Login" class="btn btn-primary">Login</a> -->
+                    <p class="card-text mt-3">New to Washington Vets 2 Tech? Register now to get started.</p>
+                    <a href="/Account/Register" class="btn btn-secondary">Register</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section for Study Materials -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Study Materials</h5>
+                    <p class="card-text">Explore our comprehensive study materials available to all visitors. Learn and grow at your own pace.</p>
+                    <a href="/Study/Index" class="btn btn-success">Explore Study Materials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cohorts Information -->
+    <div class="row mt-5">
+        <div class="col">
+            <h3 class="text-center">Our Cohorts</h3>
+            <p class="text-center">Join one of our cohorts and become part of a supportive learning community. Each cohort focuses on different areas of technology to suit your career goals.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cohort 1</h5>
+                    <p class="card-text">Focusing on Web Development and Design. Ideal for those interested in building and designing websites.</p>
+                    <a href="/Cohorts/Cohort1" class="btn btn-info">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cohort 2</h5>
+                    <p class="card-text">Specializing in Cybersecurity. Perfect for those looking to secure and protect digital assets.</p>
+                    <a href="/Cohorts/Cohort2" class="btn btn-info">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cohort 3</h5>
+                    <p class="card-text">Focusing on Data Science and Machine Learning. Ideal for those fascinated by data analysis and AI.</p>
+                    <a href="/Cohorts/Cohort3" class="btn btn-info">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
