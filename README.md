@@ -1,6 +1,6 @@
 # Washington Vets 2 Tech (WAV2T)
 
-### Computer Science Capstone Award — Hal and Inge Marcus School of Engineering, Saint Martin's University
+### Computer Science Capstone Award, Hal and Inge Marcus School of Engineering, Saint Martin's University
 
 Washington Vets 2 Tech (WAV2T) is a client-based computer science capstone project developed for the Engineering Advisory Board (EAB) at Saint Martin's University.
 
@@ -12,7 +12,7 @@ The capstone encompassed stakeholder collaboration, requirements engineering, sy
 >
 > This repository is an archival and portfolio snapshot of the WAV2T academic capstone and **does not contain the complete source code developed during the project**.
 >
-> Because WAV2T was developed as a client-based academic project, only selected project artifacts and portions of the prototype were committed to the public GitHub repository. Additional functionality—including the Django adaptive assessment implementation, persistent user-progress tracking, Django administrative functionality, and AI chatbot development—is not fully represented by the source files currently preserved here.
+> Because WAV2T was developed as a client-based academic project, only selected project artifacts and portions of the prototype were committed to the public GitHub repository. Additional functionality, including the Django adaptive assessment implementation, persistent user-progress tracking, Django administrative functionality, and AI chatbot development, is not fully represented by the source files currently preserved here.
 >
 > The midyear and final capstone presentations linked below provide supporting documentation of functionality and development work beyond the public repository snapshot.
 
